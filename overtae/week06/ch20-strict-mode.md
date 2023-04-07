@@ -5,8 +5,19 @@ week: 6주차
 # 모던 자바스크립트 Deep Dive CH20. strict mode
 
 ## 목차
-
-
+- [암묵적 전역](#암묵적-전역)
+- [strict mode](#strict-mode)
+- [적용](#적용)
+  - [1. 전역 strict mode](#1-전역-strict-mode)
+  - [2. 함수 단위 strict mode](#2-함수-단위-strict-mode)
+- [strict mode가 발생시키는 에러](#strict-mode가-발생시키는-에러)
+  - [1. 암묵적 전역](#1-암묵적-전역)
+  - [2. 변수, 함수, 매개변수의 삭제](#2-변수-함수-매개변수의-삭제)
+  - [3. 매개변수 이름의 중복](#3-매개변수-이름의-중복)
+  - [4. with 문의 사용](#4-with-문의-사용)
+- [strict mode 적용에 의한 변화](#strict-mode-적용에-의한-변화)
+  - [1. 일반 함수의 `this`](#1-일반-함수의-this)
+  - [2. `arguments` 객체](#2-arguments-객체)
 
 ## 암묵적 전역
 
